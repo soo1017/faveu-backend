@@ -1,0 +1,162 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image:linear-gradient(to bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-linear-gradient(left top, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-ms-linear-gradient(bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(34, 227, 255)), color-stop(0.85, rgb(142, 255, 186)));
+}
+
+.cls-faveulogo {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.cls-contain-div {
+  position: relative;
+  margin: 3% 0;
+  height: 700px;
+  /*width: 100%;*/
+  background: url('/images/card_background.png') no-repeat center;
+  background-size: auto;
+}
+
+.cls-message1-faveu {
+  text-align: center;
+  position: inherit;
+  padding-top: 100px;
+  color: rgb(149, 0, 0);
+}
+
+.cls-message-thank-faveu {
+  display: none;
+  text-align: center;
+  position: inherit;
+  padding-top: 250px;
+  color: rgb(0, 84, 149);
+}
+
+.cls-message-thank-faveu h3 {
+  margin: 3px 0 3px 0;
+}
+
+.cls-message1-faveu h2 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.cls-message2-faveu {
+  position: inherit;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(149, 0, 0);
+}
+
+.cls-table-faveu {
+  margin-top: 20px;
+  width: 400px;
+}
+
+.cls-body-faveu .cls-tr1,
+.cls-body-faveu .cls-tr2 {
+  height: 80px;
+}
+
+.cls-body-faveu .cls-tr3 {
+  height: 30px;
+}
+
+.cls-body-faveu .cls-tr1 .cls-th11,
+.cls-body-faveu .cls-tr1 .cls-th12,
+.cls-body-faveu .cls-tr2 .cls-th21,
+.cls-body-faveu .cls-tr3 .cls-th31 {
+  width: 190px;
+  text-align: left;
+}
+
+.cls-body-faveu .cls-tr1 .cls-th11 .span-class112 img,
+.cls-body-faveu .cls-tr1 .cls-th12 .span-class122 img,
+.cls-body-faveu .cls-tr2 .cls-th21 .span-class212 img {
+  border-radius: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  border: 1px solid rgb(0, 84, 149);
+}
+
+.cls-body-faveu .cls-tr1 .cls-th11 .span-class111 input,
+.cls-body-faveu .cls-tr1 .cls-th12 .span-class121 input,
+.cls-body-faveu .cls-tr2 .cls-th21 .span-class211 input {
+  position: relative;
+  top: -25px;
+}
+
+.cls-body-faveu .cls-tr1 .cls-th11 .span-class113 b,
+.cls-body-faveu .cls-tr1 .cls-th12 .span-class123 b,
+.cls-body-faveu .cls-tr2 .cls-th21 .span-class213 b {
+  position: relative;
+  top: -25px;
+  color: rgb(149, 0, 0);
+}
+
+.cls-landing-submit-btn {
+  display: block;
+  margin: 60px auto 0px auto;
+  height: 20px;
+  width: 200px;
+  font-size: 16px;
+  padding: 0.4em 0;
+  text-align: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+
+   background-color: rgb(0, 84, 149);
+   border: 0;
+   border-radius: 2em;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   outline: none;
+}
+
+.cls-landing-submit-btn input {
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: none;
+  letter-spacing: 3px;
+}
+
+.cls-landing-submit-btn:target {
+    background-color: rgb(0, 84, 149);
+    color: white;
+}
+
+.cls-landing-submit-btn:active {
+    background-color: rgba(252, 247, 135, 0.58);
+    color: rgb(0, 84, 149);
+    border: 1px solid rgb(0, 84, 149);
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.cls-message3-faveu {
+  text-align: center;
+  position: inherit;
+  padding-top: 5px;
+  color: rgb(149, 0, 0);
+}

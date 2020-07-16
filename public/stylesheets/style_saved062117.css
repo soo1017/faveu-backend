@@ -1,0 +1,175 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image:linear-gradient(to bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-linear-gradient(left top, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-ms-linear-gradient(bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(34, 227, 255)), color-stop(0.85, rgb(142, 255, 186)));
+}
+
+.cls-faveulogo {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.cls-contain-div {
+  margin: 3% 0;
+  height: 700px;
+  /*width: 100%;*/
+  background: url('/images/card_background.png') no-repeat center;
+  background-size: auto;
+}
+
+.main-div1,  .main-div2 {
+  width: 100% !important;
+  height: 90px !important;
+}
+
+.main-div3 {
+  width: 100% !important;
+  height: 50px !important;
+}
+
+.main-div1 .inner-div11,
+.main-div1 .inner-div12,
+.main-div2 .inner-div21,
+.main-div3 .inner-div31 {
+  display: inline-block;
+  width: 50% !important;
+  height: 70px !important;
+  margin: 10px 0 10px 0;
+}
+
+.main-div1 .inner-div11,
+.main-div2 .inner-div21,
+.main-div3 .inner-div31 {
+  float: left;
+  text-align: right;
+  margin: 10px 0 10px 0;
+}
+
+
+
+
+/*.main-div1 .inner-div11 .span-class111,
+.main-div1 .inner-div11 .span-class112,
+.main-div1 .inner-div11 .span-class113,
+.main-div1 .inner-div12 .span-class121,
+.main-div1 .inner-div12 .span-class122,
+.main-div1 .inner-div12 .span-class123,
+.main-div2 .inner-div21 .span-class211,
+.main-div2 .inner-div21 .span-class212,
+.main-div2 .inner-div21 .span-class213,
+.main-div3 .inner-div31 .span-class311,
+.main-div3 .inner-div31 .span-class312 {
+  height: 70px !important;
+}*/
+
+.main-div1 .inner-div11 .span-class112 img,
+.main-div1 .inner-div12 .span-class122 img,
+.main-div2 .inner-div21 .span-class212 img {
+  border-radius: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  border: 2px solid rgb(0, 84, 149);
+}
+
+/*.main-div1 .inner-div11 .span-class111,
+.main-div1 .inner-div12 .span-class121,
+.main-div2 .inner-div21 .span-class211 {
+  float: left;
+  width: 40px !important;
+}
+
+.main-div1 .inner-div11 .span-class111 input,
+.main-div1 .inner-div12 .span-class121 input,
+.main-div2 .inner-div21 .span-class211 input {
+  position: relative;
+  top: 25px;
+}
+
+.main-div1 .inner-div11 .span-class113 b,
+.main-div1 .inner-div12 .span-class123 b,
+.main-div2 .inner-div21 .span-class213 b {
+  position: relative;
+  padding-left: 15px;
+  font-size: 20px;
+  top: -25px;
+  color: rgb(0, 84, 149);
+}*/
+
+/* Reject Radio Button */
+/*.main-div3 .inner-div31 .span-class311 input,
+.main-div3 .inner-div31 .span-class312 b {
+  position: relative;
+  top: 25px;
+}
+
+.main-div3 .inner-div31 .span-class311 {
+  float: left;
+  width: 40px !important;
+}
+
+.main-div3 .inner-div31 .span-class312 b {
+  font-size: 18px;
+  color: orange;
+}
+
+.cls-landing-submit-btn {
+  height: 25px;
+  margin: 0 30% 0 30%;
+  font-size: 20px;
+  padding: 0.8em 0;
+  position: relative;
+  text-align: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+
+   background-color: rgb(0, 84, 149);
+   border: 0;
+   border-radius: 2em;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   outline: none;
+}
+
+.cls-landing-submit-btn input {
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  font-weight: none;
+  letter-spacing: 3px;
+}
+
+.cls-landing-submit-btn:target {
+    background-color: rgb(0, 84, 149);
+    color: white;
+}
+
+.cls-landing-submit-btn:active {
+    background-color: rgba(252, 247, 135, 0.58);
+    color: rgb(0, 84, 149);
+    border: 1px solid rgb(0, 84, 149);
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.cls-btn:active {
+  color: rgb(0, 84, 149);
+}*/

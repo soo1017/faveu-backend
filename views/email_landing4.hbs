@@ -1,0 +1,113 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style4.css">
+  <link rel="shortcut icon" href="/images/favicon/faveu-favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/javascripts/renderLink.js"></script>
+  <title>FaveU</title>
+</head>
+<body id="id-emaillanding-body">
+
+  <div class="cls-faveulogo" id="id-faveulogo">
+      <a href="https://www.faveu.com"><img src="/images/logo/faveu-logo-white.svg" alt="faveu-logo-white" class="cls-faveulogo"></a>
+  </div>
+
+  <div class="cls-contain-div {{invitecard}}" id="id-contain-div" display="">
+  <!-- <div class= id="id-contain-div" display=""> -->
+      <div id="id-message1-faveu" class="cls-message1-faveu" align="center">
+        <h2>Hi {{faveun}}</h2>
+        <h2>One of your friends faveus you</h2>
+      </div>
+      <div id="id-message-thank-faveu" class="cls-message-thank-faveu" align="center" display="none">
+        <h2>Thanks, {{faveun}}</h2>
+        <h3>If you hit the one who faveus you,</h3>
+        <h3>you would be contacted soon</h3>
+      </div>
+      <div id="id-message-nomoreselection-faveu" class="cls-message-nomoreselection-faveu" align="center" display="none">
+        <h2>Sorry</h2>
+        <h3>You already made your selection.</h3>
+        <h3>No more selection available for you</h3>
+      </div>
+      <div id="id-message2-faveu" class="cls-message2-faveu">
+        <h3><b>Please pick the one who you are most interested in</b></h3>
+        <!-- <h3><b>chilling, talking, or cuffing with</b></h3> -->
+      </div>
+      <table id="id-table-faveu" class="cls-table-faveu" align="center">
+        <tbody id="id-body-faveu" class="cls-body-faveu">
+          <tr id="id-tr1" class="cls-tr1">
+            <th id="id-th11" class="cls-th11">
+              <span class="span-class111">
+                <input type="radio" name="faveu" value="best0" id="ch0"></input>
+              </span>
+              <span class="span-class112">
+                <img src="/images/avatar/{{competitorsavatar[0]}}.png" alt="bestavatar 0"/>
+              </span>
+              <span class="span-class113" id="name00">
+                <b>{{competitors[0]}}</b>
+              </span>
+            </th>
+            <th id="id-th12" class="cls-th12">
+              <span class="span-class121">
+                <input type="radio" name="faveu" value="best1" id="ch1"></input>
+              </span>
+              <span class="span-class122">
+                <img src="/images/avatar/{{competitorsavatar[1]}}.png" alt="bestavatar 1"/>
+              </span>
+              <span class="span-class123" id="name11">
+                <b>{{competitors[1]}}</b>
+              </span>
+            </th>
+          </tr>
+
+          <tr id="id-tr2" class="cls-tr2">
+            <th id="id-th21" class="cls-th21">
+              <span class="span-class211">
+                <input type="radio" name="faveu" value="best2" id="ch2"></input>
+              </span>
+              <span class="span-class212">
+                <img src="/images/avatar/{{competitorsavatar[2]}}.png" alt="bestavatar 2"/>
+              </span>
+              <span class="span-class213" id="name22">
+                <b>{{competitors[2]}}</b>
+              </span>
+            </th>
+            <th id="id-th22" class="cls-th22">
+              <span class="span-class221">
+                <input type="radio" name="faveu" value="best3" id="ch3"></input>
+              </span>
+              <span class="span-class222">
+                <img src="/images/avatar/{{competitorsavatar[3]}}.png" alt="bestavatar 3"/>
+              </span>
+              <span class="span-class223" id="name33">
+                <b>{{competitors[3]}}</b>
+              </span>
+            </th>
+          </tr>
+
+          <tr id="id-tr3" class="cls-tr3">
+            <th id="id-th31" class="cls-th31">
+              <span class="span-class311">
+                <input type="radio" name="faveu" value="reject" id="re"></input>
+              </span>
+              <span class="span-class312">
+                <b>Reject</b>
+              </span>
+            </th>
+            <th>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <form  action="landing" method="post"> -->
+      <form class="cls-landing-submit-btn" id="id-landing-submit-btn" action="landing" align='center'>
+        <!--input type="button" value="SUBMIT" id="id-landing-btn" onclick="submit(this.form)"></input-->
+        <input type="submit" value="SUBMIT" id="id-landing-btn"></input>
+      </form>
+      <div id="id-message3-faveu" class="cls-message3-faveu">
+        <p><b>Only when you pick who requested this, FaveU lets her(him) know your pick</b></p>
+        <p><b>Otherwise, who requests this does not know about your pick</b></p>
+      </div>
+    </div>
+</body>
+</html>

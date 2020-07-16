@@ -1,0 +1,76 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image:linear-gradient(to bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-linear-gradient(left top, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-ms-linear-gradient(bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(34, 227, 255)), color-stop(0.85, rgb(142, 255, 186)));
+}
+
+.cls-faveulogo {
+  position: relative;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.cls-faveulogo img {
+  width: auto;
+  height: 100px;
+}
+
+.cls-contain-div {
+  position: relative;
+  margin: 3% 0;
+  /*height: 650px;*/
+  /*width: 100%;*/
+}
+
+.cls-message-tou-faveu {
+  width: 70%;
+  margin: 5% 15% 0 15%;
+  text-align: left;
+  position: inherit;
+  color: rgb(0, 84, 149);
+}
+
+.cls-message-tou-faveu h1 {
+  margin: 20px 0 40px 0;
+  font-size: 155%;
+}
+
+.cls-message-tou-faveu h2 {
+  margin: 35px 0 13px 0;
+  font-size: 140%;
+}
+
+.cls-message-tou-faveu h3 {
+  margin: 30px 0 30px 0;
+  font-size: 140%;
+}
+
+.cls-message-tou-faveu p {
+  margin: 10px 0 10px 0;
+  font-size: 130%;
+  line-height: 21px;
+}
+
+.cls-message-tou-faveu ul {
+  margin: 12px 0 12px 0;
+  font-size: 130%;
+}
+
+.cls-message-tou-faveu ul li {
+  margin: 12px 0 12px 0;
+  /*font-size: 100%;*/
+  line-height: 21px;
+}

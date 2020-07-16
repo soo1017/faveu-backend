@@ -1,0 +1,98 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image:linear-gradient(to bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-linear-gradient(left top, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-ms-linear-gradient(bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(34, 227, 255)), color-stop(0.85, rgb(142, 255, 186)));
+}
+
+.cls-faveulogo {
+  position: relative;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.cls-faveulogo img {
+  width: auto;
+  height: 100px;
+}
+
+.cls-contain-div {
+  position: relative;
+  margin: 3% 0;
+  text-align: center;
+  /*height: 650px;*/
+  /*width: 100%;*/
+}
+
+.cls-beforemessage-unsub-faveu,
+.cls-aftermessage-unsub-faveu,
+.cls-sorrymessage-unsub-faveu {
+    text-align: center;
+    position: inherit;
+    padding-top: 30px;
+    color: rgb(0, 84, 149);
+}
+.cls-beforemessage-unsub-faveu h2,
+.cls-aftermessage-unsub-faveu h2,
+.cls-sorrymessage-unsub-faveu h2 {
+    margin: 3px 0 5px 0;
+    font-size: 160%;
+}
+.cls-emailmessage-unsub-faveu {
+    color: rgb(0, 84, 149);
+    /*font-size: 160%;*/
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+.cls-emailmessage-unsub-faveu h2 {
+    /*font-size: 160%;*/
+}
+
+/* Button */
+.cls-unsub-btn-div {
+    height: 40px;
+    width: 250px;
+    /*border-radius: 20px;*/
+    text-align: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    outline: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.cls-unsub-btn {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(0, 84, 149);
+    color: #fff;
+    border: 2px solid rgb(0, 84, 149);
+    letter-spacing: 2px;
+    font-size: 15px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.cls-unsub-btn:target {
+    background-color: rgb(0, 84, 149);
+    color: #fff;
+}
+.cls-unsub-btn:active {
+    border: 2px solid rgb(0, 84, 149);
+    background-color: #fff;
+    color: rgb(0, 84, 149);
+}

@@ -1,0 +1,106 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image:linear-gradient(to bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-linear-gradient(left top, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-ms-linear-gradient(bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(34, 227, 255)), color-stop(0.85, rgb(142, 255, 186)));
+}
+
+.cls-faveulogo {
+  position: relative;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.cls-faveulogo img {
+  width: auto;
+  height: 100px;
+}
+
+.cls-contain-div {
+  position: relative;
+  margin: 3% 0;
+  /*height: 650px;*/
+  /*width: 100%;*/
+}
+
+.card1 {
+  background: url('/images/invitecard/invite_card1.png') no-repeat;
+  /*background: url('{{selected_invitecard}}') no-repeat;*/
+  background-position: center;
+  background-size: 850px 850px;
+  /*background-size: auto;*/
+  height: 800px;
+}
+
+.card2 {
+  background: url('/images/invitecard/invite_card2.svg') no-repeat;
+  /*background: url('{{selected_invitecard}}') no-repeat;*/
+  background-position: center;
+  background-size: 700px 800px;
+  /*background-size: 600px 700px;*/
+  height: 750px;
+  /*height: 650px;*/
+}
+
+.card3 {
+  background: url('/images/invitecard/invite_card3.svg') no-repeat;
+  /*background: url('{{selected_invitecard}}') no-repeat;*/
+  background-position: center;
+  background-size: 700px 800px;
+  height: 750px;
+}
+
+.card4 {
+  background: url('/images/invitecard/invite_card4.svg') no-repeat;
+  /*background: url('{{selected_invitecard}}') no-repeat;*/
+  background-position: center;
+  background-size: 700px 800px;
+  height: 750px;
+}
+
+.card5 {
+  background: url('/images/invitecard/invite_card5.svg') no-repeat;
+  /*background: url('{{selected_invitecard}}') no-repeat;*/
+  background-position: center;
+  background-size: 700px 800px;
+  height: 750px;
+}
+
+.cls-message-nomoreselection-faveu {
+  text-align: center;
+  position: inherit;
+  padding-top: 320px;
+}
+
+.card1 .cls-message-nomoreselection-faveu,
+.card2 .cls-message-nomoreselection-faveu,
+.card3 .cls-message-nomoreselection-faveu {
+  color: rgb(0, 84, 149);
+}
+
+.card4 .cls-message-nomoreselection-faveu,
+.card5 .cls-message-nomoreselection-faveu {
+  color: rgb(255, 151, 8);
+}
+
+.cls-message-nomoreselection-faveu h2 {
+  margin: 3px 0 5px 0;
+  font-size: 160%;
+}
+
+.cls-message-nomoreselection-faveu h3 {
+  margin: 3px 0 3px 0;
+  font-size: 130%;
+}

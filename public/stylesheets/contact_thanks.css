@@ -1,0 +1,55 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image:linear-gradient(to bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-linear-gradient(left top, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-ms-linear-gradient(bottom right, rgb(34, 227, 255) 0%, rgb(142, 255, 186) 85%);
+    background-image:-webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(34, 227, 255)), color-stop(0.85, rgb(142, 255, 186)));
+}
+
+.cls-faveulogo {
+  position: relative;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.cls-faveulogo img {
+  width: auto;
+  height: 100px;
+}
+
+.cls-contactthanks-div {
+  position: relative;
+  margin: 3% 0;
+  /*height: 650px;*/
+  /*width: 100%;*/
+}
+
+.cls-message-contactthanks-faveu {
+  text-align: center;
+  position: inherit;
+  padding-top: 320px;
+}
+
+
+.cls-message-contactthanks-faveu h2 {
+  margin: 3px 0 5px 0;
+  font-size: 160%;
+  color: #000000;
+}
+
+.cls-message-contactthanks-faveu h3 {
+  margin: 3px 0 3px 0;
+  font-size: 130%;
+  color: #000000;
+}
